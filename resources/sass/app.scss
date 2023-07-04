@@ -1,0 +1,80 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+$fa-font-path: "../webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body {
+    font-family: "Raleway", serif;
+}
+.main {
+    height: 100vh;
+    background-color: black;
+}
+
+.--height-500 {
+    height: 500px;
+}
+li {
+    list-style-type: none;
+}
+
+.tasks-text {
+    vertical-align: text-top;
+    flex: auto;
+}
+
+.tasks-wrapper {
+    height: 350px;
+    overflow: auto;
+}
+
+.menu {
+    background-color: #f5f8ff;
+    padding-top: 40px;
+    border-radius: 10px 0 0 10px;
+}
+
+.rightside-bar {
+    border-radius: 0 10px 10px 0;
+}
+
+.menu-buttons {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all ease 0.6s;
+}
+
+.task-finished {
+    background-color: darkseagreen;
+}
+
+.task-inprogress {
+    background-color: blanchedalmond;
+}
+
+.all-hover:hover {
+    background-color: rgba(33, 37, 41, 0.5);
+}
+
+.inprogress-hover:hover {
+    background-color: rgba(255, 235, 205, 0.5);
+}
+
+.finished-hover:hover {
+    background-color: rgba(143, 188, 143, 0.5);
+}
